@@ -1,6 +1,4 @@
 import "./portfolio.css";
-
-import IMG1 from "../../assets/IMG1.png";
 import IMG2 from "../../assets/IMG2.png";
 import IMG3 from "../../assets/IMG3.webp";
 // import IMG4 from "../../assets/Raise.png";
@@ -14,7 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "AC-AD Integration - SAP",
-      img: IMG1,
+      img: IMG2,
       description:
         "Integration of 2 web applications to cross function according to the system upgrade.",
       technologies: "SAPUI5 · OData · Open API · Bitbucket · Unit testing · TypeScript · Nodejs",
@@ -61,7 +59,7 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
-              <p>{pro.description}</p>
+              <p className="para">{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
