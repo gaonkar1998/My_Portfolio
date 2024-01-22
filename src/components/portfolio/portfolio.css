@@ -20,7 +20,8 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
-  height: 30%;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio__item h3 {
@@ -43,8 +44,12 @@
 
 .portfolio__item-content {
   height: 40%;
+  margin-top: 8px;
 }
 
+.portfolio__item-content h2{
+  font-style:italic ;
+}
 @media screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
